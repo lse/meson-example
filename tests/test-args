@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -ex
+
+$PWD/src/example  || true
+
+$PWD/src/example 123
